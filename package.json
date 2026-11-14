@@ -1,0 +1,12 @@
+{
+  "name": "motion-word-captcha",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Humans-only CAPTCHA (Keytos Hack). Static site; Playwright only used for the bot test.",
+  "scripts": {
+    "bot-test": "node bot-test.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.50.0"
+  }
+}
